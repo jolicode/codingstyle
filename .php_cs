@@ -9,7 +9,7 @@ EOF;
 Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
 
 $finder = Symfony\CS\Finder\DefaultFinder::create()
-    ->in(array(__DIR__.'/src', __DIR__.'/app/Resources'))
+    ->in(array(__DIR__))
 ;
 
 return Symfony\CS\Config\Config::create()
