@@ -19,6 +19,7 @@ return Symfony\CS\Config\Config::create()
         'header_comment',           // Add the provided header comment ($header)
         '-unalign_double_arrow',    // Keep aligned double arrow
         '-unalign_equals',          // Keep equals aligned
+        'align_equals',             // Force aligned equals
         'align_double_arrow',       // Force double arrow align
         'newline_after_open_tag',   // Force new line after <?php
         'ordered_use',              // Order "use" alphabetically
