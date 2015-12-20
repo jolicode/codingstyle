@@ -1,10 +1,11 @@
 # codingstyle
 
+This repository host common boilerplate configuration files for web projects.
+
 ## Installation
 
-- Install [EditorConfig plugin](Some edits are mandatory:
-) for your editor;
-- `appname` is the project name, some files use it;
+- Install [EditorConfig plugin](http://editorconfig.org/#download) (required for PhpStorm, Atom...);
+- `appname` is the project name, some files use it, make sure you edit them;
 
 ## Usage
 
