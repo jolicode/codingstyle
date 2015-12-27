@@ -1,4 +1,5 @@
 # Remove useless files from the ZIP
 .gitattributes export-ignore
+.gitconfig export-ignore
 README.md export-ignore
 eslint-config-jolicode/ export-ignore
