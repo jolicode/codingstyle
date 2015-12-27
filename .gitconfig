@@ -1,4 +1,8 @@
 # Generic .gitconfig file to make your own
+# - fix the path to excludesfile
+# - fix your email and name
+# - make sure you like those :)
+#
 # Inpired by https://gist.github.com/tdd/470582 from Christophe Porteneuve
 
 [user]
@@ -23,6 +27,9 @@ denonce = blame
 [core]
 # Don't consider trailing space change as a cause for merge conflicts
 whitespace = -trailing-space
+excludesfile = /home/user/.gitignore
+# Use your favorite editor
+editor = nano -w
 
 [diff]
 # Use better, descriptive initials (c, i, w) instead of a/b.
