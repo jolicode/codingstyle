@@ -1,6 +1,7 @@
 # Generic .gitconfig file to make your own
 # - fix the path to excludesfile
 # - fix your email and name
+# - have a look at core.editor (it's nano!)
 # - make sure you like those :)
 #
 # Inpired by https://gist.github.com/tdd/470582 from Christophe Porteneuve
@@ -14,15 +15,20 @@ email = your@email.tld
 ui = auto
 
 [alias]
+s = status
 st = status
+stat = status
 ci = commit
 df = diff
 co = checkout
-br = branch
+br = branch -v
 lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 oops = commit --amend --no-edit
 review-local = "!git lg @{push}.."
-denonce = blame
+rc = rebase --continue
+rs = rebase --skip
+r = remote -v
+t = tag -n
 
 [core]
 # Don't consider trailing space change as a cause for merge conflicts
