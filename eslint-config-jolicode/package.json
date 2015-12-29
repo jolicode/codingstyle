@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-jolicode",
+  "version": "0.1.0",
+  "description": "JoliCode's ESLint config. Based on Airbnb's config.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jolicode/condigstyle"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "jolicode",
+    "javascript",
+    "styleguide"
+  ],
+  "author": {
+    "name": "Aurélien David",
+    "email": "adavid@jolicode.com",
+    "url": "https://twitter.com/@spyl94"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jolicode/condigstyle/issues"
+  },
+  "homepage": "https://github.com/jolicode/condigstyle/javascript"
+}

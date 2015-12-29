@@ -1,0 +1,17 @@
+{
+  "name": "appname",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js --cache --fix ."
+  },
+  "eslintConfig": {
+    "extends": "jolicode",
+    "rules": {}
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-config-jolicode": "^0.1.0",
+    "eslint-plugin-react": "^3.12.0"
+  }
+}
