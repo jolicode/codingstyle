@@ -11,7 +11,7 @@ This repository host common boilerplate configuration files for our web projects
 
 - Inside your project, run the following command:
 ```
-wget -qO- -O coding.tmp.zip https://github.com/jolicode/codingstyle/archive/master.zip && unzip -j coding.tmp.zip && rm coding.tmp.zip
+wget -qO- https://github.com/jolicode/codingstyle/archive/master.tar.gz | tar xvz --strip-components=1
 ```
 - edit all `appname` in the new files, and make sure to adapt them to your needs.
 
