@@ -22,6 +22,7 @@ return Symfony\CS\Config\Config::create()
         'short_array_syntax',       // Replace array() by []
         '-empty_return',            // Keep return null;
         'phpdoc_order',             // Clean up the /** php doc */
+        'concat_with_spaces',       // Force space around concatenation operator
         
         // Alignment war start here.
         '-align_double_arrow',      // Force no double arrow align
