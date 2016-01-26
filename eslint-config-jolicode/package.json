@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jolicode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "JoliCode's ESLint config. Based on Airbnb's config.",
   "main": "index.js",
   "scripts": {

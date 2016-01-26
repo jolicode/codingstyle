@@ -24,7 +24,7 @@ module.exports = {
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [1, {'react': '0.13.0'}],
+    'react/no-deprecated': [2, {'react': '0.14.0'}],
 
     // Prevent usage of isMounted
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
