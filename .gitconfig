@@ -84,8 +84,8 @@ prompt = false
 rebase = preserve
 
 [push]
-# Default push should only push the current branch to its push target, regardless of its remote name
-default = upstream
+# Default push will only push the current branch to a branch of the same name
+default = current
 # When pushing, also push tags whose commit-ishs are now reachable upstream
 followTags = true
 
