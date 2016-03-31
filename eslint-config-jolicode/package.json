@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-jolicode",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "JoliCode's ESLint config. Based on Airbnb's config.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jolicode/codingstyle"
