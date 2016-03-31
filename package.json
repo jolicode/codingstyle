@@ -8,10 +8,9 @@
     "rules": {}
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1",
-    "eslint-config-jolicode": "^0.1.0",
-    "eslint-plugin-react": "^3.12.0"
+    "eslint": "^2.5.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-config-jolicode": "^1.0.0",
+    "eslint-plugin-react": "^4.2.3"
   }
 }

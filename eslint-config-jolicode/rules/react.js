@@ -1,6 +1,8 @@
 module.exports = {
-  parser: 'babel-eslint',
   plugins: ['react'],
+  'ecmaFeatures': {
+    'jsx': true
+  },
   rules: {
     // Enforce ES6 class instead of React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md

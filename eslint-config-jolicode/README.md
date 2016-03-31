@@ -9,7 +9,7 @@ We [extend](http://eslint.org/docs/user-guide/configuring.html#extending-configu
 ## Usage
 
 ```sh
-npm install --save-dev eslint eslint-config-jolicode eslint-config-airbnb eslint-plugin-react babel-eslint
+npm install --save-dev eslint eslint-config-jolicode eslint-config-airbnb eslint-plugin-react
 ```
 
 Create an `.eslintrc` file:
