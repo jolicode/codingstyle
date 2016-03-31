@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jolicode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JoliCode's ESLint config. Based on Airbnb's config.",
   "main": "index.js",
   "scripts": {},
@@ -29,6 +29,6 @@
   "peerDependencies": {
     "eslint": "^2.5.0",
     "eslint-plugin-react": "^4.2.3",
-    "eslint-config-airbnb": "^6.2.2"
+    "eslint-config-airbnb": "^6.2.0"
   }
 }
