@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/jolicode/codingstyle/issues"
   },
-  "homepage": "https://github.com/jolicode/codingstyle"
+  "homepage": "https://github.com/jolicode/codingstyle",
+  "peerDependencies": {
+    "eslint": "^2.5.0",
+    "eslint-plugin-react": "^4.2.3",
+    "eslint-config-airbnb": "^6.2.2"
+  }
 }
